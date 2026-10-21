@@ -1,0 +1,2 @@
+scheduler,n_seeds,epochs,test_accuracy_mean,test_accuracy_std,test_loss_mean,test_loss_std,best_val_accuracy_mean,best_val_accuracy_std,best_val_loss_mean,best_val_loss_std,total_time_sec_mean,total_time_sec_std,num_lr_changes_mean,num_lr_changes_std,threshold_0.4_n_reached,threshold_0.4_n_seeds,threshold_0.4_epoch_mean,threshold_0.4_time_sec_mean,threshold_0.6_n_reached,threshold_0.6_n_seeds,threshold_0.6_epoch_mean,threshold_0.6_time_sec_mean
+constant,1,1,0.4403,,1.5198944442749023,,0.4338,,1.5279152214050293,,54.509854599999926,,0.0,,1,1,1.0,54.509854599999926,0,1,,

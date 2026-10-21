@@ -1,0 +1,1 @@
+completed,synthetic,algorithm,config_name,scheduler,seed,fingerprint,epochs_completed,epochs_requested,best_val_accuracy,best_val_accuracy_epoch,best_val_loss,best_val_loss_epoch,selected_epoch,selection_rule,scheduler_signal,test_loss,test_accuracy,total_time_sec,num_lr_changes,thresholds,device,finished_at,split,num_decay_events,num_recovery_events

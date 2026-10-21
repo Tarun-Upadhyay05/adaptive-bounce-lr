@@ -1,0 +1,19 @@
+scheduler,label,seed,threshold,reached,elapsed_sec,epoch
+ablr,ABLR,0,0.4,True,48.44891150000058,1.0
+ablr,ABLR,0,0.6,True,115.68114500000047,3.0
+ablr,ABLR,0,0.8,False,,
+ablr_recovery,ABLR + recovery,0,0.4,True,51.42583090000062,1.0
+ablr_recovery,ABLR + recovery,0,0.6,True,158.88383049999993,3.0
+ablr_recovery,ABLR + recovery,0,0.8,False,,
+constant,Constant,0,0.4,True,45.37299260000054,1.0
+constant,Constant,0,0.6,True,136.71793120000075,3.0
+constant,Constant,0,0.8,False,,
+cosine,Cosine annealing,0,0.4,True,34.404400700000224,1.0
+cosine,Cosine annealing,0,0.6,True,119.47202130000005,3.0
+cosine,Cosine annealing,0,0.8,False,,
+plateau,ReduceLROnPlateau,0,0.4,True,51.738301800000045,1.0
+plateau,ReduceLROnPlateau,0,0.6,True,155.62446470000032,3.0
+plateau,ReduceLROnPlateau,0,0.8,False,,
+step,Step decay,0,0.4,True,52.27192670000022,1.0
+step,Step decay,0,0.6,True,156.00637820000065,3.0
+step,Step decay,0,0.8,False,,

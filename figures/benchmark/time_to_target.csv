@@ -1,0 +1,55 @@
+scheduler,label,seed,threshold,reached,elapsed_sec,epoch
+ablr,ABLR,0,0.7,True,212.64142069999798,5.0
+ablr,ABLR,0,0.8,True,263.8006375999976,6.0
+ablr,ABLR,0,0.85,False,,
+ablr,ABLR,1,0.7,True,255.8678695000017,5.0
+ablr,ABLR,1,0.8,True,358.22731689999637,7.0
+ablr,ABLR,1,0.85,False,,
+ablr,ABLR,2,0.7,True,256.4584495999952,5.0
+ablr,ABLR,2,0.8,True,563.4072523999967,11.0
+ablr,ABLR,2,0.85,False,,
+ablr_recovery,ABLR + recovery,0,0.7,True,207.48519500000475,5.0
+ablr_recovery,ABLR + recovery,0,0.8,True,240.3158491000031,6.0
+ablr_recovery,ABLR + recovery,0,0.85,False,,
+ablr_recovery,ABLR + recovery,1,0.7,True,165.15318969999862,5.0
+ablr_recovery,ABLR + recovery,1,0.8,True,259.94931110000107,7.0
+ablr_recovery,ABLR + recovery,1,0.85,False,,
+ablr_recovery,ABLR + recovery,2,0.7,True,256.17976070000077,5.0
+ablr_recovery,ABLR + recovery,2,0.8,True,563.7679134000027,11.0
+ablr_recovery,ABLR + recovery,2,0.85,False,,
+constant,Constant,0,0.7,True,249.2870183999994,5.0
+constant,Constant,0,0.8,True,300.8303154999994,6.0
+constant,Constant,0,0.85,False,,
+constant,Constant,1,0.7,True,238.0606912000003,5.0
+constant,Constant,1,0.8,True,322.73903900000096,7.0
+constant,Constant,1,0.85,False,,
+constant,Constant,2,0.7,True,242.42155459999685,5.0
+constant,Constant,2,0.8,True,532.837676999995,11.0
+constant,Constant,2,0.85,False,,
+cosine,Cosine annealing,0,0.7,True,205.3231657999986,4.0
+cosine,Cosine annealing,0,0.8,True,308.81009769999946,6.0
+cosine,Cosine annealing,0,0.85,True,667.7202026999985,13.0
+cosine,Cosine annealing,1,0.7,True,204.92977130000145,4.0
+cosine,Cosine annealing,1,0.8,True,358.92478200000187,7.0
+cosine,Cosine annealing,1,0.85,True,614.5312806999991,12.0
+cosine,Cosine annealing,2,0.7,True,131.89553680000245,4.0
+cosine,Cosine annealing,2,0.8,True,295.74917879999884,9.0
+cosine,Cosine annealing,2,0.85,True,427.32335129999956,13.0
+plateau,ReduceLROnPlateau,0,0.7,True,164.99603729999762,5.0
+plateau,ReduceLROnPlateau,0,0.8,True,197.8898094999986,6.0
+plateau,ReduceLROnPlateau,0,0.85,True,395.19599749999725,12.0
+plateau,ReduceLROnPlateau,1,0.7,True,164.44209559999763,5.0
+plateau,ReduceLROnPlateau,1,0.8,True,230.16565829999854,7.0
+plateau,ReduceLROnPlateau,1,0.85,False,,
+plateau,ReduceLROnPlateau,2,0.7,True,164.78564150000238,5.0
+plateau,ReduceLROnPlateau,2,0.8,True,362.0852001000003,11.0
+plateau,ReduceLROnPlateau,2,0.85,True,657.8194845999969,20.0
+step,Step decay,0,0.7,True,235.50540600000022,5.0
+step,Step decay,0,0.8,True,286.81643090000034,6.0
+step,Step decay,0,0.85,True,522.7402403999986,11.0
+step,Step decay,1,0.7,True,165.12856269999975,5.0
+step,Step decay,1,0.8,True,230.9335415000005,7.0
+step,Step decay,1,0.85,True,362.4789025000009,11.0
+step,Step decay,2,0.7,True,256.1896450999975,5.0
+step,Step decay,2,0.8,True,563.2871834999987,11.0
+step,Step decay,2,0.85,True,563.2871834999987,11.0

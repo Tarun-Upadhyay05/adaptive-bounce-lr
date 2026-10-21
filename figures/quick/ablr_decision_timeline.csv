@@ -1,0 +1,4 @@
+epoch,lr,val_loss,val_accuracy,ema_loss,ema_accuracy,velocity,reference_velocity,normalized_progress,regime,action,reason,lr_changed,healthy_count,slow_count,stagnant_count,epochs_since_lr_change,recoveries_since_reduction
+1,0.1,1.5279152214050291,0.4338,1.5279152214050291,0.4338,,,,warmup,hold,warmup,False,0,0,0,0,0
+2,0.1,1.2162609909057618,0.5688,1.465584375305176,0.4608,0.0407947019747179,0.0407947019747179,1.0,healthy,hold,healthy_progress,False,1,0,0,0,0
+3,0.1,0.9718532329559326,0.6516,1.3668381468353274,0.49896,0.0673766929654165,0.0434529010737877,1.6516040001265977,healthy,hold,healthy_progress,False,2,0,0,0,0

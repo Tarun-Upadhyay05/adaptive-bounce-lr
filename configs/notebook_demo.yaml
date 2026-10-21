@@ -1,0 +1,67 @@
+# Truncated notebook demonstration. Forty training batches and ten evaluation
+# batches are enough to exercise the loop, and not enough to compare schedulers.
+name: notebook_demo
+notes: Truncated demonstration launched by the notebook. Not a benchmark.
+seeds: [0]
+split_seed: 42
+epochs: 1
+batch_size: 128
+num_workers: 0
+val_fraction: 0.1
+data_dir: data
+results_dir: results
+figures_dir: figures
+device: auto
+deterministic: true
+amp: true
+max_train_batches: 40
+max_eval_batches: 10
+accuracy_thresholds: [0.2, 0.4]
+schedulers:
+  - constant
+  - ablr
+
+model:
+  num_classes: 10
+
+optimizer:
+  lr: 0.1
+  momentum: 0.9
+  weight_decay: 0.0005
+
+step:
+  milestone_fractions: [0.5, 0.75]
+  gamma: 0.1
+
+cosine:
+  eta_min: 0.00001
+
+linear:
+  eta_min: 0.00001
+
+plateau:
+  factor: 0.1
+  patience: 1
+  threshold: 0.01
+  threshold_mode: rel
+  min_lr: 0.000001
+
+ablr:
+  ema_alpha: 1.0
+  velocity_window: 1
+  reference_beta: 0.0
+  healthy_ratio: 0.4
+  slow_ratio: 0.1
+  slow_patience: 1
+  stagnant_patience: 1
+  healthy_patience: 2
+  slow_factor: 0.5
+  stagnant_factor: 0.2
+  recover_factor: 1.1
+  recover_margin: 0.02
+  min_lr: 0.00001
+  max_lr: 0.1
+  warmup_epochs: 0
+  cooldown_epochs: 0
+  max_recoveries: 1
+  min_reference_velocity: 0.0001

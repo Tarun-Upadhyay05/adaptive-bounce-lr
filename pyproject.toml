@@ -1,0 +1,11 @@
+[project]
+name = "adaptive-bounce-lr"
+version = "0.1.0"
+description = "Experimental Adaptive Bounce learning-rate scheduler on CIFAR-10"
+readme = "README.md"
+requires-python = ">=3.11"
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
+addopts = "-q"

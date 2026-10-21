@@ -1,0 +1,87 @@
+{
+  "completed": true,
+  "synthetic": false,
+  "algorithm": "ablr-v1",
+  "config_name": "benchmark",
+  "scheduler": "cosine",
+  "seed": 1,
+  "fingerprint": "e89ad7d9bff1b804",
+  "epochs_completed": 20,
+  "epochs_requested": 20,
+  "best_val_accuracy": 0.9222,
+  "best_val_accuracy_epoch": 20,
+  "best_val_loss": 0.23947313604354858,
+  "best_val_loss_epoch": 20,
+  "selected_epoch": 20,
+  "selection_rule": "highest validation accuracy; ties broken by lower validation loss",
+  "scheduler_signal": "validation loss only",
+  "test_loss": 0.2605540884971619,
+  "test_accuracy": 0.9185,
+  "total_time_sec": 973.3746914999992,
+  "num_lr_changes": 20,
+  "thresholds": {
+    "0.7": {
+      "reached": true,
+      "epoch": 4,
+      "elapsed_sec": 204.92977130000145
+    },
+    "0.8": {
+      "reached": true,
+      "epoch": 7,
+      "elapsed_sec": 358.92478200000187
+    },
+    "0.85": {
+      "reached": true,
+      "epoch": 12,
+      "elapsed_sec": 614.5312806999991
+    }
+  },
+  "device": "cuda",
+  "finished_at": "2026-10-15T08:35:29.531251+00:00",
+  "split": {
+    "train_size": 45000,
+    "val_size": 5000,
+    "test_size": 10000,
+    "split_seed": 42,
+    "val_fraction": 0.1,
+    "train_class_counts": {
+      "airplane": 4500,
+      "automobile": 4500,
+      "bird": 4500,
+      "cat": 4500,
+      "deer": 4500,
+      "dog": 4500,
+      "frog": 4500,
+      "horse": 4500,
+      "ship": 4500,
+      "truck": 4500
+    },
+    "val_class_counts": {
+      "airplane": 500,
+      "automobile": 500,
+      "bird": 500,
+      "cat": 500,
+      "deer": 500,
+      "dog": 500,
+      "frog": 500,
+      "horse": 500,
+      "ship": 500,
+      "truck": 500
+    },
+    "mean": [
+      0.4914,
+      0.4822,
+      0.4465
+    ],
+    "std": [
+      0.2023,
+      0.1994,
+      0.201
+    ],
+    "augmentation": [
+      "RandomCrop(32, padding=4)",
+      "RandomHorizontalFlip"
+    ],
+    "drop_last_train_batch": true
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "fingerprint": "a7818edde1defb07",
+  "scheduler": "linear",
+  "seed": 1,
+  "epochs": 20,
+  "algorithm": "ablr-v1",
+  "device": "cuda",
+  "started_at": "2026-10-16T18:17:12.850436+00:00"
+}

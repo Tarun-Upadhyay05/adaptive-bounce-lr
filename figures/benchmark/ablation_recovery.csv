@@ -1,0 +1,7 @@
+scheduler,seed,best_val_accuracy,test_accuracy
+ablr,0,0.8348,0.8285
+ablr,1,0.8454,0.8355
+ablr,2,0.8488,0.8498
+ablr_recovery,0,0.8348,0.8285
+ablr_recovery,1,0.8454,0.8355
+ablr_recovery,2,0.8488,0.8498

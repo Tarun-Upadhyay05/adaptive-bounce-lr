@@ -1,0 +1,37 @@
+scheduler,label,seed,threshold,reached,elapsed_sec,epoch
+ablr_hybrid,ABLR + linear envelope,0,0.7,True,412.6471853999974,7.0
+ablr_hybrid,ABLR + linear envelope,0,0.8,True,589.2454278000077,10.0
+ablr_hybrid,ABLR + linear envelope,0,0.85,True,821.9366329000113,14.0
+ablr_hybrid,ABLR + linear envelope,1,0.7,True,407.3423137000136,7.0
+ablr_hybrid,ABLR + linear envelope,1,0.8,True,640.1247345000156,11.0
+ablr_hybrid,ABLR + linear envelope,1,0.85,True,814.7673190000132,14.0
+ablr_hybrid,ABLR + linear envelope,2,0.7,True,351.41527870000573,6.0
+ablr_hybrid,ABLR + linear envelope,2,0.8,True,644.3297117999973,11.0
+ablr_hybrid,ABLR + linear envelope,2,0.85,True,819.7570931999944,14.0
+constant,Constant,0,0.7,True,430.0546923999998,8.0
+constant,Constant,0,0.8,True,795.7750986999997,15.0
+constant,Constant,0,0.85,False,,
+constant,Constant,1,0.7,True,361.6915726000002,7.0
+constant,Constant,1,0.8,True,932.6491495000009,18.0
+constant,Constant,1,0.85,False,,
+constant,Constant,2,0.7,True,261.1337870999996,5.0
+constant,Constant,2,0.8,True,731.070160100001,14.0
+constant,Constant,2,0.85,False,,
+cosine,Cosine annealing,0,0.7,True,363.8266271000002,7.0
+cosine,Cosine annealing,0,0.8,True,544.0168952000004,10.0
+cosine,Cosine annealing,0,0.85,True,723.9053414,13.0
+cosine,Cosine annealing,1,0.7,True,302.15849439999965,5.0
+cosine,Cosine annealing,1,0.8,True,725.1831994000013,12.0
+cosine,Cosine annealing,1,0.85,True,847.3581121000007,14.0
+cosine,Cosine annealing,2,0.7,True,407.80777880000005,7.0
+cosine,Cosine annealing,2,0.8,True,527.1126493999991,9.0
+cosine,Cosine annealing,2,0.85,True,765.2304429000005,13.0
+linear,Linear to zero,0,0.7,True,49368.2385408,7.0
+linear,Linear to zero,0,0.8,True,49556.224962399996,10.0
+linear,Linear to zero,0,0.85,True,49795.761223899994,14.0
+linear,Linear to zero,1,0.7,True,409.7334402999986,7.0
+linear,Linear to zero,1,0.8,True,660.9311961000058,11.0
+linear,Linear to zero,1,0.85,True,848.3525112000134,14.0
+linear,Linear to zero,2,0.7,True,366.60645019999356,6.0
+linear,Linear to zero,2,0.8,True,659.083512899997,11.0
+linear,Linear to zero,2,0.85,True,834.0361265000029,14.0

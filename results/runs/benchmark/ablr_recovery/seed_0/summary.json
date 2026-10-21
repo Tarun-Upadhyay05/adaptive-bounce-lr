@@ -1,0 +1,89 @@
+{
+  "completed": true,
+  "synthetic": false,
+  "algorithm": "ablr-v1",
+  "config_name": "benchmark",
+  "scheduler": "ablr_recovery",
+  "seed": 0,
+  "fingerprint": "91cc463fc8a589df",
+  "epochs_completed": 20,
+  "epochs_requested": 20,
+  "best_val_accuracy": 0.8348,
+  "best_val_accuracy_epoch": 17,
+  "best_val_loss": 0.507196089553833,
+  "best_val_loss_epoch": 13,
+  "selected_epoch": 17,
+  "selection_rule": "highest validation accuracy; ties broken by lower validation loss",
+  "scheduler_signal": "validation loss only",
+  "test_loss": 0.528688504076004,
+  "test_accuracy": 0.8285,
+  "total_time_sec": 701.2869247000053,
+  "num_lr_changes": 0,
+  "thresholds": {
+    "0.7": {
+      "reached": true,
+      "epoch": 5,
+      "elapsed_sec": 207.48519500000475
+    },
+    "0.8": {
+      "reached": true,
+      "epoch": 6,
+      "elapsed_sec": 240.3158491000031
+    },
+    "0.85": {
+      "reached": false,
+      "epoch": null,
+      "elapsed_sec": null
+    }
+  },
+  "device": "cuda",
+  "finished_at": "2026-10-15T10:23:23.362668+00:00",
+  "split": {
+    "train_size": 45000,
+    "val_size": 5000,
+    "test_size": 10000,
+    "split_seed": 42,
+    "val_fraction": 0.1,
+    "train_class_counts": {
+      "airplane": 4500,
+      "automobile": 4500,
+      "bird": 4500,
+      "cat": 4500,
+      "deer": 4500,
+      "dog": 4500,
+      "frog": 4500,
+      "horse": 4500,
+      "ship": 4500,
+      "truck": 4500
+    },
+    "val_class_counts": {
+      "airplane": 500,
+      "automobile": 500,
+      "bird": 500,
+      "cat": 500,
+      "deer": 500,
+      "dog": 500,
+      "frog": 500,
+      "horse": 500,
+      "ship": 500,
+      "truck": 500
+    },
+    "mean": [
+      0.4914,
+      0.4822,
+      0.4465
+    ],
+    "std": [
+      0.2023,
+      0.1994,
+      0.201
+    ],
+    "augmentation": [
+      "RandomCrop(32, padding=4)",
+      "RandomHorizontalFlip"
+    ],
+    "drop_last_train_batch": true
+  },
+  "num_decay_events": 0,
+  "num_recovery_events": 0
+}

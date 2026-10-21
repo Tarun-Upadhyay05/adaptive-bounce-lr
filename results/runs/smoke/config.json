@@ -1,0 +1,73 @@
+{
+  "name": "smoke",
+  "notes": "Single-epoch pipeline timing run for the constant learning rate.",
+  "seeds": [
+    0
+  ],
+  "split_seed": 42,
+  "epochs": 1,
+  "batch_size": 128,
+  "num_workers": 0,
+  "val_fraction": 0.1,
+  "data_dir": "data",
+  "results_dir": "results",
+  "figures_dir": "figures",
+  "device": "auto",
+  "deterministic": true,
+  "amp": true,
+  "max_train_batches": null,
+  "max_eval_batches": null,
+  "accuracy_thresholds": [
+    0.4,
+    0.6
+  ],
+  "schedulers": [
+    "constant"
+  ],
+  "model": {
+    "num_classes": 10
+  },
+  "optimizer": {
+    "lr": 0.1,
+    "momentum": 0.9,
+    "weight_decay": 0.0005
+  },
+  "step": {
+    "milestone_fractions": [
+      0.5,
+      0.75
+    ],
+    "gamma": 0.1
+  },
+  "cosine": {
+    "eta_min": 1e-05
+  },
+  "plateau": {
+    "factor": 0.1,
+    "patience": 1,
+    "threshold": 0.01,
+    "threshold_mode": "rel",
+    "min_lr": 1e-06
+  },
+  "ablr": {
+    "ema_alpha": 0.2,
+    "velocity_window": 1,
+    "reference_beta": 0.1,
+    "healthy_ratio": 0.4,
+    "slow_ratio": 0.1,
+    "slow_patience": 2,
+    "stagnant_patience": 2,
+    "healthy_patience": 2,
+    "slow_factor": 0.5,
+    "stagnant_factor": 0.1,
+    "recover_factor": 1.1,
+    "recover_margin": 0.02,
+    "min_lr": 1e-05,
+    "max_lr": 0.1,
+    "warmup_epochs": 1,
+    "cooldown_epochs": 1,
+    "max_recoveries": 1,
+    "min_reference_velocity": 0.0001
+  },
+  "config_path": "configs\\smoke.yaml"
+}

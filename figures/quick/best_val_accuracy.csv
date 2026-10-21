@@ -1,0 +1,7 @@
+scheduler,label,mean,std,n
+constant,Constant,0.6516,,1
+step,Step decay,0.707,,1
+cosine,Cosine annealing,0.6844,,1
+plateau,ReduceLROnPlateau,0.6516,,1
+ablr,ABLR,0.6516,,1
+ablr_recovery,ABLR + recovery,0.6516,,1

@@ -1,0 +1,7 @@
+scheduler,seed,test_accuracy
+ablr,0,0.6533
+ablr_recovery,0,0.6533
+constant,0,0.6533
+cosine,0,0.6823
+plateau,0,0.6533
+step,0,0.7042

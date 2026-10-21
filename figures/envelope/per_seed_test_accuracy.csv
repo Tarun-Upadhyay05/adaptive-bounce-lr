@@ -1,0 +1,13 @@
+scheduler,seed,test_accuracy
+ablr_hybrid,0,0.915
+ablr_hybrid,1,0.9151
+ablr_hybrid,2,0.9107
+constant,0,0.8091
+constant,1,0.808
+constant,2,0.8103
+cosine,0,0.9116
+cosine,1,0.9176
+cosine,2,0.9135
+linear,0,0.915
+linear,1,0.9151
+linear,2,0.9107

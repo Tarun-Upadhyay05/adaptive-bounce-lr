@@ -1,0 +1,40 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.pytest-tmp/
+.mypy_cache/
+.ipynb_checkpoints/
+.venv/
+venv/
+env/
+.env
+.env.*
+!.env.example
+
+# Dataset download and training checkpoints are large and local.
+data/
+*.pt
+*.pth
+*.onnx
+wandb/
+/runs/
+
+# Credentials and local signing material must never be committed.
+*.pem
+*.key
+*.p12
+credentials*.json
+secrets*.json
+
+# Coverage and build output
+.coverage
+htmlcov/
+build/
+dist/
+*.egg-info/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
